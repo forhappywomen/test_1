@@ -3,7 +3,7 @@ steem.api.setOptions({url: 'https://api.steemit.com'});
 
 var syn = require('synchronize');
 var fiber = sync.fiber;
-var await = syn.await;
+var await = sync.await;
 var defer = sync.defer;
 
 try {
